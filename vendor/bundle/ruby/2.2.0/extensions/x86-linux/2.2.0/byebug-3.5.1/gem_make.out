@@ -1,0 +1,15 @@
+/home/thida/.rvm/rubies/ruby-2.2.0/bin/ruby -r ./siteconf20150209-3895-10f71gl.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20150209-3895-pbwop6/byebug

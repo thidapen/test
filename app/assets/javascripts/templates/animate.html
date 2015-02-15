@@ -1,0 +1,10 @@
+<section class="row col-md-6 col-md-offset-3">
+	<div ng-init="items=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]" class="grid">
+  <div class="filter">
+    <input placeholder="filter" ng-model="f"/>
+  </div>
+  <div ng-repeat="item in items | filter:f" class="cell repeat-animation">
+ 	 {{item}}
+  </div>
+</div>
+</section>

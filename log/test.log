@@ -1,0 +1,32 @@
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2015-02-10 17:06:04 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 5184ms (Views: 5183.5ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2015-02-10 17:06:09 +0700
+Started GET "/assets/application.js" for 127.0.0.1 at 2015-02-10 17:06:09 +0700
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2015-02-10 17:07:05 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 71ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2015-02-10 17:07:05 +0700
+Started GET "/assets/application.js" for 127.0.0.1 at 2015-02-10 17:07:05 +0700
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2015-02-10 17:51:18 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 427ms (Views: 427.0ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2015-02-10 17:51:19 +0700
+Started GET "/assets/application.js" for 127.0.0.1 at 2015-02-10 17:51:19 +0700
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2015-02-10 17:52:51 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 153ms (Views: 152.1ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2015-02-10 17:52:52 +0700
+Started GET "/assets/application.js" for 127.0.0.1 at 2015-02-10 17:52:52 +0700
+  [1m[35m (0.2ms)[0m  rollback transaction

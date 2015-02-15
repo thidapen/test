@@ -1,0 +1,30 @@
+<h1>Reading List</h1>
+<div class="row" ng-controller="ReadingListController as readingList">
+	<ul class="list-unstyled col-sm-8">
+		<li class="book row" ng-repeat="book in readingList.books">
+			<aside class="col-sm-3">
+				<a href="#" class="thumbnail">
+					<img ng-src="http://images.amazon.com/images/P/{{book.isbn}}.01.ZTZZZZZZZ.jpg" alt="Cover of {{book.title}}" class="full">
+				</a>
+				<h4>{{book.rating}}</h4>
+			</aside>
+			<div class="col-sm-9">
+				<!-- 9 lines: <h3><a href="#">TITLE</a></h3> -->
+				<h3>{{book.title}}</h3>
+				<cite class="text-muted">Written by {{book.authors.join(',')}}</cite>
+				<p>{{book.review}}</p>
+				<ul>
+					<li ng-repeat="genre in book.genres">
+						 <span class="label label-primary">{{genre}}</span>
+					</li>
+				</ul>
+				
+			</div>
+			
+		</li>
+		
+	</ul>
+	<aside class="col-sm-4">
+		<!-- 4 lines: <h4><a href="#">Genres</a></h4> -->
+	</aside>
+</div>
